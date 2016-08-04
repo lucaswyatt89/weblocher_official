@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aquafit | Final</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/background.cycle.js"></script>
+		<script type="text/javascript">
+            $(document).ready(function() {
+                $("#con").backgroundCycle({
+                    imageUrls: [
+                        'img/slide1.jpg',
+                        'img/slide2.jpg',
+                        
+                    ],
+                    fadeSpeed: 2000,
+                    duration: 5000,
+                    backgroundSize: SCALING_MODE_COVER
+                });
+            });
+        </script>
+</head>
+<body>
+	<div class="mainwrapper">
+		<div class="con" id="con">
+			<div class="nav">
+				<a href="#">Home</a>
+				<a href="#">Zwemschool</a>
+				<a href="#">Inschrijven</a>
+				<a href="#">Zwemfeestjes</a>
+				<a href="#">Aquafitshop</a>
+				<a href="#">Over ons</a>
+				<a href="#">Contact</a>
+			</div>
+			<div class="frst_sectn"></div>
+		</div>
+			<div class="scnd_sectn"></div>
+			<div class="trd_sectn"></div>
+	</div>
+</body>
+</html>
